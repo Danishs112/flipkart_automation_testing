@@ -11,7 +11,6 @@ const product = async function (product_name) {
 const button_set_path = async function (button_path) {
     return $(button_path);
 }
-
 const product_href = async function (product_name) {
     let product_href = await product(product_name);
     product_href = await product_href.getAttribute('href');
