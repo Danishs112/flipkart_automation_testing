@@ -77,15 +77,7 @@ exports.page = {
     visitPage : visit_page,
 }
 
-// exports.product = {
-//     productUrl : product,
-//     productLink : product_href,
-//     productTitle: product_title,
-//     insertProduct : product_set_value,
-//     searchProduct : searchItem,
-     
 
-// }
 
 exports.searchContent  = async function (parameter) {
     const current_browser_url = browser.getUrl();
