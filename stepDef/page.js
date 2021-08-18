@@ -19,7 +19,7 @@ const product_href = async function (product_name) {
 }
 
 const product_title = async function() {
-    let product_title = await product(product_path);
+    let product_title = await product(product_path);``
     product_title = await product_title.getAttribute('title');
     product_title = product_title.toString();
     return product_title;
