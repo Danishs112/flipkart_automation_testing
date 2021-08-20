@@ -12,4 +12,4 @@ Feature: Checking the add to cart functionality
         Examples:
             | pro_name  | 
             | pendrive  |
-
+            
