@@ -1,4 +1,4 @@
-Feature: Checking the add to cart functionality
+Feature: Checking the add to cart and remove functionality
 
     Scenario Outline: As a user, I can add item to add to cart 
         Given User go the webpage 
@@ -7,6 +7,8 @@ Feature: Checking the add to cart functionality
         And Check user go to the add to cart page
         Then Click on add to cart button
         And Check the product is added to add to cart
+        And Click on remove button
+        And Item is removed from cart
       
 
         Examples:

@@ -1,7 +1,6 @@
 {
   "name": "flipkart",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +22,14 @@
     "chromedriver": "^92.0.1",
     "hamjest": "^3.7.2",
     "wdio-chromedriver-service": "^7.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danishsoma/flipkart_automation_testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Danishsoma/flipkart_automation_testing/issues"
+  },
+  "homepage": "https://github.com/Danishsoma/flipkart_automation_testing#readme",
+  "description": ""
 }

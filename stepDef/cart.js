@@ -2,8 +2,7 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 const assert = require('assert');
 const {assertThat, is, contains, containsString} = require('hamjest');
 const { createPublicKey } = require('crypto');
-const {
-        selectProduct,
+const {selectProduct,
         addToCart,
         searchContent,
 }  = require('./page.js');
@@ -69,3 +68,12 @@ Then(/^Check the product is added to add to cart$/, async () => {
       throw(error);
    }
 });
+
+Then(/^Click on remove button$/,async () => {
+   try {
+      
+   }
+   catch(error){
+      throw(error);
+   }
+})
